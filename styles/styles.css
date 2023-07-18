@@ -1,5 +1,154 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #FF42A5;
+    --secondary-color: #3C354F;
+    --deep-gray: #3C354F;
+    --youtube: #F61C0D;
+    --navbtnbg: #E7E6E9;
+    --navycolor: #0B0223;
+    --white:#fff;
+    --sky:#4EC5F7;
+
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+.btn-primary{
+    padding: 15px 30px;
+    border: 0;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.btn-secondary{
+    padding: 15px 30px;
+    border: 0;
+    background-color: var(--sky);
+    color: var(--white);
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 5px;
+    cursor:pointer;
+}
+/* Navbar Styles Here */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 30px 0px;
+    display: flex;
+    gap: 5px;
+}
+
+.nav-logo img {
+    width: 50px;
+
+}
+
+.nav-logo h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.nav-logo h3 span {
+    color: var(--primary-color);
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: var(--deep-gray);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav-menu ul li a:hover {
+    color: var(--primary-color);
+}
+
+.nav-button {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--navbtnbg);
+}
+
+.nav-menu button i {
+    margin: 0px 5px;
+}
+
+.fa-youtube {
+    color: var(--youtube);
+}
+
+/* Banner Styles Here */
+.banner-bg{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.banner-content h1 {
+    color: var(--navycolor);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-content .banner-title {
+    color: #FF42A5;
+    font-size: 5rem;
+    font-weight: 800;
+}
+.banner-content p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--deep-gray);
+    margin: 10px 0px;
+}
+
+.banner-img img {
+    width: 450px;
+    text-align: right;
+    display: block;
 }
