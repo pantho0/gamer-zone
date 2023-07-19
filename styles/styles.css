@@ -433,3 +433,93 @@ footer p {
     font-size: .8rem;
     font-weight: 500;
 }
+
+/* Mobile Responsive Styles Here */
+@media screen and (max-width:425px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-menu ul {
+        flex-direction: column;
+    }
+    .banner-bg {
+        background-position: bottom;
+    }
+    .banner {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .banner {
+        padding: 15px 0px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .video-section h1 {
+        font-size: 1.7rem;
+    }
+    .video-section-desc {
+        font-size: .8rem;
+        font-weight: 500;
+        padding: 15px 0px;
+    }
+    .card-list p{
+        text-align: center;
+    }
+    .online-game-container {
+        flex-direction: column-reverse;
+    }
+    .online-game-content h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .online-game-content p {
+        width: 100%;
+        text-align: center;
+    }
+    .img-1 {
+        width: 90%;
+    }
+    .img-2 {
+        width: 100px;
+        bottom: -45px;
+        left: 270px;
+    }
+    .game-category-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .game-category {
+        gap: 5px;
+        padding: 0px;
+    }
+    .game-category p {
+        font-size: .5rem;
+    }
+    .game-type {
+        margin: 60px 0px 60px 0px;
+    }
+    .footer-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    .social-icons ul {
+        display: grid;
+        color: var(--white);
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .policy-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .footer {
+        padding: 35px 0px;
+    }
+    
+}
