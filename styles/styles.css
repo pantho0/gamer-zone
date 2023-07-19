@@ -41,8 +41,9 @@ body {
     cursor: pointer;
 
 }
-.btn-primary:hover{
-    background-color:var(--navycolor);
+
+.btn-primary:hover {
+    background-color: var(--navycolor);
     color: var(--white);
 }
 
@@ -57,8 +58,9 @@ body {
     margin-left: 5px;
     cursor: pointer;
 }
-.btn-secondary:hover{
-    background-color:var(--navycolor);
+
+.btn-secondary:hover {
+    background-color: var(--navycolor);
     color: var(--white);
 }
 
@@ -77,8 +79,7 @@ body {
 
 .nav-logo img {
     width: 50px;
-    height:30px
-
+    height: 30px
 }
 
 .nav-logo h3 {
@@ -117,11 +118,13 @@ body {
     border-radius: 5px;
     background-color: var(--navbtnbg);
 }
-.nav-button:hover{
+
+.nav-button:hover {
     background-color: var(--navycolor);
     cursor: pointer;
     color: var(--white);
 }
+
 .nav-menu button i {
     margin: 0px 5px;
 }
@@ -189,6 +192,7 @@ body {
 .video-section p {
     color: var(--deep-gray);
 }
+
 .video-section-desc {
     margin: 20px 0px;
     font-size: 1.2rem;
@@ -200,9 +204,11 @@ body {
     justify-content: space-between;
     gap: 20px;
 }
+
 .card-list p {
     margin: 20px 0px;
 }
+
 .card {
     position: relative;
     /* width: 300px; */
@@ -212,13 +218,13 @@ body {
     overflow: hidden;
 }
 
-  .card img {
+.card img {
     width: 100%;
     height: auto;
     display: block;
-  }
+}
 
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -227,32 +233,38 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
-  .card:hover{
+}
+
+.card:hover {
     border: 5px solid var(--primary-color);
     border-radius: 30px;
-  }
-  .card:hover .overlay{
+}
+
+.card:hover .overlay {
     opacity: 1;
     cursor: pointer;
-  }
- .card:hover .text{
+}
+
+.card:hover .text {
     display: block;
     cursor: pointer;
- }
- .text {
+}
+
+.text {
     position: absolute;
     bottom: 40%;
     left: 35%;
     color: #fff;
     display: none;
 }
-.text i{
+
+.text i {
     color: var(--white);
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-.text h4{
+
+.text h4 {
     color: var(--primary-color);
 }
 
@@ -410,10 +422,12 @@ body {
     color: var(--white);
     font-size: 1.3rem;
 }
-.social-icons i{
+
+.social-icons i {
     font-size: 1.3rem;
 }
-.social-icons i:hover{
+
+.social-icons i:hover {
     color: var(--primary-color);
 }
 
@@ -446,49 +460,60 @@ footer p {
     font-size: .8rem;
     font-weight: 500;
 }
+
 /* Tablet Responsive Styles Here */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .banner {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 50px 0px;
+        margin: 30px 0px;
         gap: 25px;
     }
+
     .banner-img img {
         width: 100%;
     }
+
     .game-category-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
     .online-game-container {
         flex-direction: column-reverse;
     }
+
     .card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .card-list p {
         text-align: center;
     }
+
     .img-1 {
         width: 80%;
     }
+
     .img-2 {
         width: 200px;
         position: absolute;
         bottom: -100px;
         left: 450px;
     }
+
     .online-game-content h2 {
         width: 100%;
         text-align: center;
     }
+
     .online-game-content p {
         width: 100%;
         text-align: center;
     }
+
     .video-section-desc {
         font-size: 1rem;
         font-weight: 500;
@@ -496,99 +521,132 @@ footer p {
     }
 
 }
+
 /* Mobile Responsive Styles Here */
 @media screen and (max-width:425px) {
     .navbar {
         flex-direction: column;
     }
+
     .nav-menu ul {
         flex-direction: column;
     }
+
     .banner-bg {
         background-position: bottom;
     }
+
     .banner {
         flex-direction: column-reverse;
         gap: 30px;
     }
+
     .banner-img img {
         width: 100%;
     }
+
     .banner {
         padding: 15px 0px;
     }
+
     .card-container {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .video-section {
+        padding: 40px 0px;
+    }
     .video-section h1 {
         font-size: 1.7rem;
     }
+
     .video-section-desc {
         font-size: .8rem;
         font-weight: 500;
         padding: 15px 0px;
     }
-    .card-list p{
+
+    .card-list p {
         text-align: center;
     }
+
     .online-game-container {
         flex-direction: column-reverse;
     }
+
     .online-game-content h2 {
         width: 100%;
         text-align: center;
     }
+
     .online-game-content p {
         width: 100%;
         text-align: center;
     }
+
     .img-1 {
         width: 90%;
     }
+
     .img-2 {
         width: 100px;
         bottom: -45px;
         left: 270px;
     }
+
     .game-category-container {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
+
     .game-category {
         gap: 5px;
         padding: 0px;
     }
+
     .game-category p {
         font-size: .5rem;
     }
+
     .game-type {
         margin: 60px 0px 60px 0px;
     }
+
     .footer-menu ul {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
+
     .social-icons ul {
         display: grid;
         color: var(--white);
         gap: 10px;
         grid-template-columns: repeat(3, 1fr);
     }
+
     .policy-menu ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
+
     .footer {
         padding: 35px 0px;
     }
+
     .footer-menu ul li a {
         font-size: .8rem;
     }
+
     .social-icons i {
         font-size: 1rem;
     }
+
+    footer p {
+        width: 45%;
+        margin: 0 auto;
+    }
 }
 
+/* ===================================== */
