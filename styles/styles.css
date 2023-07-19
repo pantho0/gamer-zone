@@ -41,6 +41,10 @@ body {
     cursor: pointer;
 
 }
+.btn-primary:hover{
+    background-color:var(--navycolor);
+    color: var(--white);
+}
 
 .btn-secondary {
     padding: 15px 30px;
@@ -52,6 +56,10 @@ body {
     font-weight: 600;
     margin-left: 5px;
     cursor: pointer;
+}
+.btn-secondary:hover{
+    background-color:var(--navycolor);
+    color: var(--white);
 }
 
 /* Navbar Styles Here */
@@ -180,6 +188,11 @@ body {
 
 .video-section p {
     color: var(--deep-gray);
+}
+.video-section-desc {
+    margin: 20px 0px;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .card-container {
