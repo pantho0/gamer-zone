@@ -146,6 +146,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 300px;
+    padding: 15px 0px;
 }
 
 .banner-content h1 {
@@ -293,10 +294,10 @@ body {
 }
 
 .img-2 {
-    width: 200px;
+    width: 17%;
     position: absolute;
-    bottom: -100px;
-    left: 300px;
+    bottom: -10%;
+    left: 28%;
 }
 
 .online-game-content h2 {
@@ -509,10 +510,10 @@ footer p {
     }
 
     .img-2 {
-        width: 200px;
+        width: 35%;
         position: absolute;
-        bottom: -100px;
-        left: 450px;
+        bottom: -10%;
+        left: 65%;
     }
 
     .online-game-content h2 {
@@ -596,13 +597,13 @@ footer p {
     }
 
     .img-1 {
-        width: 90%;
+        width: 75%;
     }
 
     .img-2 {
-        width: 100px;
-        bottom: -45px;
-        left: 270px;
+        width: 35%;
+        bottom: -10%;
+        left: 60%;
     }
 
     .game-category-container {
