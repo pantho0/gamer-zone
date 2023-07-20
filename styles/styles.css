@@ -145,7 +145,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0px;
     gap: 300px;
 }
 
@@ -177,7 +176,7 @@ body {
 
 /* Video Section Styles Here */
 .video-section {
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
 
 .video-section h1 {
@@ -470,7 +469,6 @@ footer p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 30px 0px;
         gap: 25px;
     }
 
