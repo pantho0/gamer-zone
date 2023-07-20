@@ -156,9 +156,12 @@ body {
 }
 
 .banner-content .banner-title {
-    color: #FF42A5;
     font-size: 5rem;
     font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .banner-content p {
@@ -186,7 +189,11 @@ body {
 }
 
 .video-section h1 span {
-    color: var(--primary-color);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
 .video-section p {
@@ -301,7 +308,10 @@ body {
 }
 
 .online-game-content h2 span {
-    color: var(--primary-color);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .online-game-content p {
